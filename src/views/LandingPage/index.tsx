@@ -62,8 +62,26 @@ const partnerData = [
   { image: '/img_avater.png', name: 'peopleName' },
 ]
 
-
 const sponsorsData = [
+  { image: '/img_avater.png', name: 'peopleName' },
+  { image: '/img_avater.png', name: 'peopleName' },
+  { image: '/img_avater.png', name: 'peopleName' },
+  { image: '/img_avater.png', name: 'peopleName' },
+  { image: '/img_avater.png', name: 'peopleName' },
+  { image: '/img_avater.png', name: 'peopleName' },
+  { image: '/img_avater.png', name: 'peopleName' },
+  { image: '/img_avater.png', name: 'peopleName' },
+  { image: '/img_avater.png', name: 'peopleName' },
+  { image: '/img_avater.png', name: 'peopleName' },
+  { image: '/img_avater.png', name: 'peopleName' },
+  { image: '/img_avater.png', name: 'peopleName' },
+  { image: '/img_avater.png', name: 'peopleName' },
+  { image: '/img_avater.png', name: 'peopleName' },
+  { image: '/img_avater.png', name: 'peopleName' },
+  { image: '/img_avater.png', name: 'peopleName' },
+]
+
+const memberData = [
   { image: '/img_avater.png', name: 'peopleName' },
   { image: '/img_avater.png', name: 'peopleName' },
   { image: '/img_avater.png', name: 'peopleName' },
@@ -258,7 +276,7 @@ export const LandingPage = () => {
         </section>
 
         <section id="reward">
-          <div className="mb-52 mt-52">
+          <div className="mb-[150px] mt-[150px]">
             <h1 className="text-4xl font-bold mb-8">Prize For Winner</h1>
             <div className="grid sm:grid-cols-3 grid-cols-2 gap-4">
               <CustomCard className="rounded-3xl">
@@ -309,7 +327,7 @@ export const LandingPage = () => {
         </section>
 
         <section id="partner">
-          <div className="pb-52">
+          <div className="pb-[150px]">
             <h1 className="text-center text-4xl font-bold mb-8">
               Collaborations / Partners
             </h1>
@@ -327,8 +345,10 @@ export const LandingPage = () => {
 
         <section id="donate">
           <div className="mb-[150px]">
-            <h1 className="text-4xl font-bold mb-8 text-center">Donations / Funding</h1>
-            <div className='flex items-center justify-center content-center'>
+            <h1 className="text-4xl font-bold mb-8 text-center">
+              Donations / Funding
+            </h1>
+            <div className="flex items-center justify-center content-center">
               <CustomCard className="items-center w-fit">
                 <img
                   src="/img_qr_code_donate.png"
@@ -336,17 +356,17 @@ export const LandingPage = () => {
                   width={'360px'}
                 ></img>
 
-                <h1 className='text-2xl mb-8 text-center text-gray-800'>Account number <br/> 012-3-45678-9</h1>
+                <h1 className="text-2xl mb-8 text-center text-gray-800">
+                  Account number <br /> 012-3-45678-9
+                </h1>
               </CustomCard>
             </div>
           </div>
         </section>
 
         <section id="sponser">
-          <div className="pb-52">
-            <h1 className="text-center text-4xl font-bold mb-8">
-              Sponsors
-            </h1>
+          <div className="pb-[150px]">
+            <h1 className="text-center text-4xl font-bold mb-8">Sponsors</h1>
             <CustomCard>
               <div className="grid sm:grid-cols-8 grid-cols-2 gap-6 justify-items-center m-2">
                 {sponsorsData.map(({ image, name }, index) => (
@@ -359,6 +379,36 @@ export const LandingPage = () => {
           </div>
         </section>
 
+        <section id="member">
+          <div className="pb-[150px]">
+            <h1 className="text-center text-4xl font-bold mb-8">Member</h1>
+
+            <CustomCard>
+              <div className="grid sm:grid-cols-8 grid-cols-2 gap-6 justify-items-center m-2">
+                {memberData.map(({ image, name }, index) => (
+                  <CustomCircleAvater>
+                    <img key={index} src={image} alt={name}></img>
+                  </CustomCircleAvater>
+                ))}
+              </div>
+            </CustomCard>
+          </div>
+        </section>
+
+        <section id='socialMedia'>
+
+          <div className='mb-[150px] bg-slate-100'>
+            <h1 className="text-center text-4xl font-bold mb-8">Social Media</h1>
+            
+            <div className='grid sm:grid-cols-8 grid-cols-2 gap-6 justify-items-center m-2'>
+
+          
+
+            </div>
+
+          </div>
+
+        </section>
 
       </Layout>
     </div>
