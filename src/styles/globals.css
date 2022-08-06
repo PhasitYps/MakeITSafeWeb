@@ -18,20 +18,15 @@ a {
   box-sizing: border-box;
 }
 
-.padding-20px{
-  padding: 45px;
-}
-
 ::-webkit-scrollbar {
   width: 8px;
-  
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1; 
+  background: #f1f1f1;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: rgb(0, 124, 207);
@@ -40,6 +35,26 @@ a {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(0, 153, 255); 
+  background: rgb(0, 153, 255);
   border-radius: 30px;
+}
+
+.CustomeRegisterNow {
+  font-size: 1.5rem /* 24px */;
+  line-height: 2rem /* 32px */;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(37,99,235,1);
+  border-radius: 30px;
+  padding-left: 3rem/* 48px */;
+  padding-right: 3rem/* 48px */;
+  padding-top: 1rem/* 16px */;
+  padding-bottom: 1rem/* 16px */;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.CustomeRegisterNow:hover{
+  background-color: rgb(37,99,235,0.5);
 }
