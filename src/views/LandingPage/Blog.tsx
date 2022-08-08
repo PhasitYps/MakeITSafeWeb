@@ -1,3 +1,5 @@
+import { useRouter } from 'next/router'
+
 const blogData = [
     {
       image: '/placeholder.png',
@@ -36,6 +38,11 @@ const blogData = [
     },
   ]
 
+const handleClickToBlogsPage = (id: String)=>{
+  const router = useRouter()
+  router.push('/blogs/'+id)
+}
+
 export const Blog = () => {
   return (
     <section id="blog" className="mt-[200px]">
@@ -43,7 +50,7 @@ export const Blog = () => {
 
       <div className="grid sm:grid-cols-5 grid-cols-2 gap-4 justify-center items-center">
         {blogData.map(({ image, title, author }, index) => (
-          <div className="" key={index}>
+          <div className="" key={index} onClick={()=>{handleClickToBlogsPage('1')}}>
             <div className="mb-4">
               <img className="w-52 rounded-2xl" src={image} alt={title} />
             </div>

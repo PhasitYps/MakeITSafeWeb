@@ -1,1 +1,0 @@
-export { JotFormPage as default } from "src/views/JotFromPage";
