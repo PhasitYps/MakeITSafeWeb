@@ -18,12 +18,15 @@ export const Navbar = () => {
           <h1 className="font-bold text-[#D041f3]">FLOW</h1>
           <div className="flex items-center flex-1 px-4 justify-center">
             <a className="mx-2 w-16 text-white" href='#home'>Home</a>
+            <a className="mx-2 w-16 text-white" href='#problem'>Problem</a>
+            <a className="mx-2 w-16 text-white" href='#activities'>Activities</a>
             <a className="mx-2 w-16 text-white" href='#timeline'>Timeline</a>
             <a className="mx-2 w-16 text-white" href='#blog'>Blog</a>
+            
         
           </div>
           <div>
-            <button className="CustomeRegisterNow px-5 py-3" onClick={handleClickToRegister}>
+            <button className="CustomeRegisterNow px-8 py-3" onClick={handleClickToRegister}>
               Register Now
             </button>
           </div>
