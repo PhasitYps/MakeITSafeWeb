@@ -6,7 +6,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  @apply bg-blue-100;
+  background-color: rgb(5,8,37);
+  /* @apply bg-blue-100; */
 }
 
 a {
@@ -18,26 +19,26 @@ a {
   box-sizing: border-box;
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 8px;
-}
+} */
 
 /* Track */
-::-webkit-scrollbar-track {
+/* ::-webkit-scrollbar-track {
   background: #f1f1f1;
-}
+} */
 
 /* Handle */
-::-webkit-scrollbar-thumb {
+/* ::-webkit-scrollbar-thumb {
   background: rgb(0, 124, 207);
   border-radius: 30px;
-}
+} */
 
 /* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
+/* ::-webkit-scrollbar-thumb:hover {
   background: rgb(0, 153, 255);
   border-radius: 30px;
-}
+} */
 
 .CustomeRegisterNow {
   font-size: 1.5rem /* 24px */;
@@ -46,15 +47,11 @@ a {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
   --tw-bg-opacity: 1;
-  background-color: rgb(37,99,235,1);
+  background-color: rgba(47, 63, 222, 1);
   border-radius: 30px;
-  padding-left: 3rem/* 48px */;
-  padding-right: 3rem/* 48px */;
-  padding-top: 1rem/* 16px */;
-  padding-bottom: 1rem/* 16px */;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .CustomeRegisterNow:hover{
-  background-color: rgb(37,99,235,0.5);
+  background-color: rgb(47,63,222,0.5);
 }
