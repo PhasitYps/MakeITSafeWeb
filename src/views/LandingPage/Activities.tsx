@@ -14,7 +14,7 @@ export const Activities = () => {
             elements. Aside from the OCSEA foundation, participants will hear
             from victims to better understand the root cause of the problem and
             identify critical behaviors that need to be modified, which will
-            lead to creating user-centered prototypes. The designing prototypes
+            lead to creating user-centered prototypes. The designing prototypes
             will couple with behavioral design tools and gamification features
             to ensure the outcome is efficient and effective.
           </p>

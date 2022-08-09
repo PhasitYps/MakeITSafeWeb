@@ -38,7 +38,7 @@ export const LandingPage = () => {
           alt="Cartoon graduates jump with happiness"
           quality="100"
           layout="fill"
-          objectFit='cover'
+          objectFit="cover"
           width={'100vw'}
         />
       </div>
@@ -47,7 +47,7 @@ export const LandingPage = () => {
 
       <Layout className="z-1">
         <Home />
-        <Problem/>
+        <Problem />
         {/* <Activities />
         <Timeline />
         <Blog />
