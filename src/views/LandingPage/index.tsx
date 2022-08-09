@@ -1,7 +1,4 @@
 import Head from 'next/head'
-import { Card } from '../common/Card'
-import { CustomCard } from '../common/CustomCard'
-import { CustomCircleAvater } from '../common/CustomCircleAvater'
 import { Layout } from '../common/Layout'
 import { Navbar } from '../common/Navbar'
 import { Home } from './Home'
@@ -9,24 +6,24 @@ import { Home } from './Home'
 import Image from 'next/image'
 import { Problem } from './Problem'
 
-const sponsorsData = [
-  { image: '/img_avater.png', name: 'peopleName' },
-  { image: '/img_avater.png', name: 'peopleName' },
-  { image: '/img_avater.png', name: 'peopleName' },
-  { image: '/img_avater.png', name: 'peopleName' },
-  { image: '/img_avater.png', name: 'peopleName' },
-  { image: '/img_avater.png', name: 'peopleName' },
-  { image: '/img_avater.png', name: 'peopleName' },
-  { image: '/img_avater.png', name: 'peopleName' },
-  { image: '/img_avater.png', name: 'peopleName' },
-  { image: '/img_avater.png', name: 'peopleName' },
-  { image: '/img_avater.png', name: 'peopleName' },
-  { image: '/img_avater.png', name: 'peopleName' },
-  { image: '/img_avater.png', name: 'peopleName' },
-  { image: '/img_avater.png', name: 'peopleName' },
-  { image: '/img_avater.png', name: 'peopleName' },
-  { image: '/img_avater.png', name: 'peopleName' },
-]
+// const sponsorsData = [
+//   { image: '/img_avater.png', name: 'peopleName' },
+//   { image: '/img_avater.png', name: 'peopleName' },
+//   { image: '/img_avater.png', name: 'peopleName' },
+//   { image: '/img_avater.png', name: 'peopleName' },
+//   { image: '/img_avater.png', name: 'peopleName' },
+//   { image: '/img_avater.png', name: 'peopleName' },
+//   { image: '/img_avater.png', name: 'peopleName' },
+//   { image: '/img_avater.png', name: 'peopleName' },
+//   { image: '/img_avater.png', name: 'peopleName' },
+//   { image: '/img_avater.png', name: 'peopleName' },
+//   { image: '/img_avater.png', name: 'peopleName' },
+//   { image: '/img_avater.png', name: 'peopleName' },
+//   { image: '/img_avater.png', name: 'peopleName' },
+//   { image: '/img_avater.png', name: 'peopleName' },
+//   { image: '/img_avater.png', name: 'peopleName' },
+//   { image: '/img_avater.png', name: 'peopleName' },
+// ]
 
 export const LandingPage = () => {
   return (
