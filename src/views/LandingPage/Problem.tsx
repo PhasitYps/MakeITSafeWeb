@@ -8,10 +8,9 @@ export const Problem = () => {
         </h1>
         <div className="grid w-full mb-24 grid-cols-1 sm:grid-cols-2 gap-8 justify-items-center">
           <iframe
-            className="flex flex-col items-center justify-center"
             width="480"
             height="315"
-            src="https://www.youtube.com/embed/yfwmC7X44LM"
+            src="https://www.youtube.com/embed/9j0lNgcLhdU"
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

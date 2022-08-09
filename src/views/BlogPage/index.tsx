@@ -77,6 +77,7 @@ export const BlogPage = () => {
     <div>
       <Navbar />
       <Layout>
+        
         <article>
           <div className="pt-[100px]">
             <h1 className="font-bold text-white text-4xl mb-8">{blog.title}</h1>

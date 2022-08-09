@@ -8,8 +8,6 @@ const partnerData = [
   { image: '/PartnerLogo/nyu.png', name: 'peopleName' },
   { image: '/PartnerLogo/police_cadet_academy.png', name: 'peopleName' },
   { image: '/PartnerLogo/tij.png', name: 'peopleName' },
-  { image: '/img_avater.png', name: 'peopleName' },
-  { image: '/img_avater.png', name: 'peopleName' },
 ]
 
 export const Partners = () => {
@@ -19,14 +17,19 @@ export const Partners = () => {
         <h1 className="text-center text-4xl font-bold mb-8 text-white">
           Partners
         </h1>
-        <CustomCard>
-          <div className="grid sm:grid-cols-8 grid-cols-2 gap-6 justify-items-center m-2">
+        <div className="flex items-center justify-center">
+          <div>
+            <img src={'/logo_sftf.png'} className="w-[600px] rounded-2xl shadow-md"></img>
+          </div>
+        </div>
+        <CustomCard className='mt-4'>
+          <div className="grid sm:grid-cols-6 grid-cols-2 gap-4 justify-items-center">
             {partnerData.map(({ image, name }, index) => (
               <img
                 key={index}
                 src={image}
                 alt={name}
-                className="w-20 h-20"
+                className="w-14 h-14"
               ></img>
             ))}
           </div>

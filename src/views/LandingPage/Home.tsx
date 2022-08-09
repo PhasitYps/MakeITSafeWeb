@@ -1,9 +1,9 @@
-
+import Image from 'next/image'
 export const Home = () => {
-
   return (
     <article id="home" className="">
-      <div className="flex w-full sm:flex-row flex-col-reverse mt-[150px]">
+      <div className="flex w-full sm:flex-row flex-col-reverse mt-[150px] ">
+        
         <div className="flex-1 flex flex-col self-stretch justify-center mr-8">
           <div>
             <h1 className="text-8xl font-bold text-white">ASEAN</h1>

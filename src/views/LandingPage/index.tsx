@@ -12,6 +12,7 @@ import { Problem } from './Problem'
 import { Reward } from './Reward'
 import { TeamMember } from './TeamMember'
 import { Timeline } from './Timeline'
+import Image from 'next/image'
 
 const sponsorsData = [
   { image: '/img_avater.png', name: 'peopleName' },
@@ -39,11 +40,15 @@ export const LandingPage = () => {
         <title>ASEAN MakeITSafe</title>
       </Head>
 
+     
+
       <Navbar />
 
-      <Layout>
-        
-        <Home />
+      
+
+      <Layout className="z-1">
+  
+      <Home />
         <Problem />
         <Activities />
         <Timeline />
@@ -51,7 +56,6 @@ export const LandingPage = () => {
         <Reward />
         <TeamMember />
         <Partners />
-
       </Layout>
     </div>
   )
