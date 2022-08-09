@@ -4,15 +4,10 @@ import { CustomCard } from '../common/CustomCard'
 import { CustomCircleAvater } from '../common/CustomCircleAvater'
 import { Layout } from '../common/Layout'
 import { Navbar } from '../common/Navbar'
-import { Activities } from './Activities'
-import { Blog } from './Blog'
 import { Home } from './Home'
-import { Partners } from './Partners'
-import { Problem } from './Problem'
-import { Reward } from './Reward'
-import { TeamMember } from './TeamMember'
-import { Timeline } from './Timeline'
+
 import Image from 'next/image'
+import { Problem } from './Problem'
 
 const sponsorsData = [
   { image: '/img_avater.png', name: 'peopleName' },
@@ -55,13 +50,13 @@ export const LandingPage = () => {
 
       <Layout className="z-1">
         <Home />
-        <Problem />
-        <Activities />
+        <Problem/>
+        {/* <Activities />
         <Timeline />
         <Blog />
         <Reward />
         <TeamMember />
-        <Partners />
+        <Partners /> */}
       </Layout>
     </div>
   )
