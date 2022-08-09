@@ -5,6 +5,11 @@ import { Home } from './Home'
 
 import Image from 'next/image'
 import { Problem } from './Problem'
+import { Activities } from './Activities'
+import { Timeline } from './Timeline'
+import { Reward } from './Reward'
+import { TeamMember } from './TeamMember'
+import { Partners } from './Partners'
 
 // const sponsorsData = [
 //   { image: '/img_avater.png', name: 'peopleName' },
@@ -48,12 +53,12 @@ export const LandingPage = () => {
       <Layout className="z-1">
         <Home />
         <Problem />
-        {/* <Activities />
+        <Activities />
         <Timeline />
-        <Blog />
+        {/* <Blog /> */}
         <Reward />
         <TeamMember />
-        <Partners /> */}
+        <Partners />
       </Layout>
     </div>
   )
