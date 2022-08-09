@@ -1,7 +1,7 @@
 import Image from 'next/image'
 export const Home = () => {
 
-  
+
 
   return (
     <article id="home" className="relative">
@@ -22,7 +22,7 @@ export const Home = () => {
         </div>
         <div className="self-stretch mb-8 sm:mb-0">
           <img
-            className="rounded-2xl h-[30rem] w-[30rem]"
+            className="rounded-2xl h-[24rem] w-[24rem]"
             src="/img_home.jpg"
             alt="Lorem Image"
           />
