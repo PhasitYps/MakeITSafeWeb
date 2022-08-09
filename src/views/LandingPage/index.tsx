@@ -39,7 +39,7 @@ export const LandingPage = () => {
 
       <div className="bg-image-wrapper">
         <Image
-          src="/Images/bg_002.jpg"
+          src="/Images/bg_003.svg"
           alt="Cartoon graduates jump with happiness"
           quality="100"
           layout="fill"

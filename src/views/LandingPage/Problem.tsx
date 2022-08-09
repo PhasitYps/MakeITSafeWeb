@@ -1,8 +1,8 @@
 export const Problem = () => {
   return (
     <section id="problem" className="">
-      <div className="mt-[15rem]">
-        <h1 className="text-4xl font-bold mb-10 text-white text-center">
+      <div className="mt-[20rem]">
+        <h1 className="text-5xl font-bold mb-20 text-white text-center">
           Topic: Redesign Educational Tools to Address Online <br /> Child
           Exploitation and Abuse (OCSEA)
         </h1>
@@ -17,7 +17,7 @@ export const Problem = () => {
             allowFullScreen
           ></iframe>
 
-          <p className="text-white flex flex-col justify-center">
+          <p className="text-white flex flex-col justify-center text-lg">
             Online Child Sexual Exploitation and Abuse or OCSEA involves the use
             of information and communication technology as a means to sexually
             abuse and/or sexually exploit children. Online predators use

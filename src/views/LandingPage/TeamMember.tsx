@@ -16,7 +16,7 @@ export const TeamMember = () => {
         </h1>
 
         <div>
-          <div className="grid sm:grid-cols-4 grid-cols-2 gap-6 justify-items-center m-2">
+          <div className="grid sm:grid-cols-4 grid-cols-2 gap-1 justify-items-center m-2">
             {memberData.map(({ image, name }, index) => (
               <CustomCard className="items-center justify-center" key={index}>
                 <div className="items-center justify-center flex">
