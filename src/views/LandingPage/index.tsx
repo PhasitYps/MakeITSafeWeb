@@ -58,7 +58,7 @@ export const LandingPage = () => {
         <Problem />
         <Activities />
         <Timeline />
-        {/* <Blog /> */}
+        <Blog />
         <Reward />
         <TeamMember />
         <Partners />

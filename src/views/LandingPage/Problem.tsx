@@ -1,7 +1,7 @@
 export const Problem = () => {
   return (
     <section id="problem" className="">
-      <div className="mt-[200px]">
+      <div className="mt-[15rem]">
         <h1 className="text-4xl font-bold mb-10 text-white text-center">
           Topic: Redesign Educational Tools to Address Online <br /> Child
           Exploitation and Abuse (OCSEA)
