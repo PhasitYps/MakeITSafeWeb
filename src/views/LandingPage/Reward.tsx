@@ -51,16 +51,16 @@ export const Reward = () => {
         </div>
 
         <div>
-          <p className="text-white">
+          <p className="text-white text-xl">
             -The top three teams will receive a cash prize of 500$, 400$, and
             300$, respectively.
           </p>
           <br />
-          <p className="text-white">
+          <p className="text-white text-xl">
             - The winning team will receive additional fund for 1,000$.
           </p>
           <br />
-          <p className="text-white">
+          <p className="text-white text-xl">
             - The winning team will receive a round-trip ticket to Bangkok,
             Thailand, excluding hotels, transportation, and food.
           </p>

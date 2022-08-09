@@ -19,8 +19,14 @@ a {
   box-sizing: border-box;
 }
 
-.landingImage{
-  background-image: url('/Images/bg_home.jpg');
+
+.bg-image-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
 }
 
 /* ::-webkit-scrollbar {

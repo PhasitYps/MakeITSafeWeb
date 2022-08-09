@@ -40,19 +40,25 @@ export const LandingPage = () => {
         <title>ASEAN MakeITSafe</title>
       </Head>
 
-     
+      <div className="bg-image-wrapper">
+        <Image
+          src="/Images/bg_002.jpg"
+          alt="Cartoon graduates jump with happiness"
+          quality="100"
+          layout="fill"
+          objectFit='cover'
+          width={'100vw'}
+        />
+      </div>
 
       <Navbar />
 
-      
-
       <Layout className="z-1">
-  
-      <Home />
+        <Home />
         <Problem />
         <Activities />
         <Timeline />
-        <Blog />
+        {/* <Blog /> */}
         <Reward />
         <TeamMember />
         <Partners />
