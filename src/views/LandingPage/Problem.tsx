@@ -2,7 +2,7 @@ export const Problem = () => {
   return (
     <section id="problem" className="">
       <div className="mt-[20rem]">
-        <h1 className="text-5xl font-bold mb-20 text-white text-center">
+        <h1 className="text-5xl font-bold mb-20 text-[#d041f3] text-center">
           Topic: Redesign Educational Tools to Address Online <br /> Child
           Exploitation and Abuse (OCSEA)
         </h1>

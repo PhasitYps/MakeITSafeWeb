@@ -11,7 +11,7 @@ export const TeamMember = () => {
   return (
     <section id="member">
       <div className="pt-[200px]">
-        <h1 className="text-center text-4xl font-bold mb-8 text-white">
+        <h1 className="text-center text-4xl font-bold mb-8 text-[#d041f3]">
           Team Member
         </h1>
 

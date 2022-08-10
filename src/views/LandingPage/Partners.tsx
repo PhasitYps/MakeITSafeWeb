@@ -14,7 +14,7 @@ export const Partners = () => {
   return (
     <section id="partner">
       <div className="pt-[200px] pb-[200px]">
-        <h1 className="text-center text-4xl font-bold mb-8 text-white">
+        <h1 className="text-center text-4xl font-bold mb-8 text-[#d041f3]">
           Partners
         </h1>
         <div className="flex items-center justify-center">

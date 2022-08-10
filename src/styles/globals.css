@@ -6,7 +6,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  background-color: rgb(5,8,37);
+  
+  background-color: rgb(5, 8, 37);
   /* @apply bg-blue-100; */
 }
 
@@ -19,8 +20,37 @@ a {
   box-sizing: border-box;
 }
 
+/* .grad1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  height: 700px;
+  width: 700px;
+  background: rgb(5, 8, 37);
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgba(5, 8, 37, 1) 0%,
+    rgba(47, 63, 222, 1) 0%,
+    rgba(5, 8, 37, 0) 50%
+  );
+}
 
-
+.grad2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  height: 700px;
+  width: 700px;
+  background: rgba(5, 8, 37);
+  background: radial-gradient(
+    circle at 100% 50%,
+    rgba(5, 8, 37, 1) 0%,
+    rgba(208, 65, 243, 1) 0%,
+    rgba(5, 8, 37, 0) 44%
+  );
+} */
 
 .bg-image-wrapper {
   position: absolute;
@@ -61,9 +91,9 @@ a {
   --tw-bg-opacity: 1;
   background-color: rgba(47, 63, 222, 1);
   border-radius: 30px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.CustomeRegisterNow:hover{
-  background-color: rgb(47,63,222,0.5);
+.CustomeRegisterNow:hover {
+  background-color: rgb(47, 63, 222, 0.5);
 }

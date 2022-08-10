@@ -37,7 +37,7 @@ export const LandingPage = () => {
         <title>ASEAN MakeITSafe</title>
       </Head>
 
-      <div className="bg-image-wrapper">
+      <section>
         <Image
           src="/Images/bg_003.svg"
           alt="Cartoon graduates jump with happiness"
@@ -46,7 +46,7 @@ export const LandingPage = () => {
           objectFit="cover"
           width={'100vw'}
         />
-      </div>
+      </section>
 
       <Navbar />
 
@@ -55,11 +55,12 @@ export const LandingPage = () => {
         <Problem />
         <Activities />
         <Timeline />
-        {/* <Blog /> */}
+
         <Reward />
         <TeamMember />
         <Partners />
       </Layout>
+      {/* <Blog /> */}
     </div>
   )
 }
