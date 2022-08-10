@@ -34,33 +34,38 @@ export const Navbar = () => {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
-  const Menu = () => {
-    if (typeof window !== 'undefined') {
-      console.log('window.innerHeight', window.innerHeight)
-    }
-  }
-
   return (
-    <div className="h-12 sm:h-14 relative">
+    <div className="h-12 sm:h-14 ">
       <div
         id="navbar"
-        className="fixed top-0 w-screen h-12 sm:h-14 shadow-2xl  py-12 z-10"
+        className="fixed top-0 w-screen h-12 sm:h-14 shadow-2xl  py-10 z-10"
       >
-        <Layout className="flex w-full h-full items-center justify-between">
-          <h1 className="font-bold text-[#D041f3]">FLOW</h1>
+        <Layout className="flex w-full h-full items-center">
+          <h1 className="font-bold text-[#D041f3] ">FLOW</h1>
 
-          <div className="flex items-center flex-1 px-4 justify-center">
-            <a className="mx-2 w-16 text-white" href="#home">
-              Home
-            </a>
-            <a className="mx-2 w-16 text-white" href="#problem">
-              Problem
-            </a>
-            <a className="mx-2 w-16 text-white" href="#timeline">
-              Timeline
-            </a>
+          <div className="flex flex-1 justify-center items-center">
+            <div className="mx-2">
+              <a className="mx-2 w-16 text-white" href="#home">
+                Home
+              </a>
+            </div>
+            <div className="mx-2">
+              <a className="mx-2 w-16 text-white" href="#problem">
+                Problem
+              </a>
+            </div>
+            <div className="mx-2">
+              <a className="mx-2 w-16 text-white" href="#timeline">
+                Timeline
+              </a>
+            </div>
+            <div className="mx-2">
+              <a className="mx-2 w-16 text-white" href="#member">
+                About Us
+              </a>
+            </div>
           </div>
-          <button className="CustomeRegisterNow px-8 py-3">
+          <button className="CustomeRegisterNow px-4 py-1">
             <Link href={'https://form.jotform.com/221710975445054'}>
               <a target="_blank">Register Now</a>
             </Link>
