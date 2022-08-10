@@ -18,14 +18,14 @@ export const TeamMember = () => {
         <div>
           <div className="grid sm:grid-cols-4 grid-cols-2 gap-1 justify-items-center m-2">
             {memberData.map(({ image, name }, index) => (
-              <CustomCard className="items-center justify-center" key={index}>
+              <CustomCard className="items-center justify-center w-56" key={index}>
                 <div className="items-center justify-center flex">
                   <CustomCircleAvater>
                     <img
                       key={index}
                       src={image}
                       alt={name}
-                      className="w-36 h-36 rounded-[50%]"
+                      className="w-24 h-24 rounded-[50%]"
                     ></img>
                   </CustomCircleAvater>
                 </div>

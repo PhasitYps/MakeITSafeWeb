@@ -3,7 +3,7 @@ export const Problem = () => {
     <section id="problem" className="">
       <div className="mt-[20rem]">
         <h1 className="text-5xl font-bold mb-20 text-[#d041f3] text-center">
-          Topic: Redesign Educational Tools to Address Online <br /> Child
+          Redesign Educational Tools to Address Online <br /> Child Sexual
           Exploitation and Abuse (OCSEA)
         </h1>
         <div className="grid w-full mb-24 grid-cols-1 sm:grid-cols-2 gap-8 justify-items-center">
