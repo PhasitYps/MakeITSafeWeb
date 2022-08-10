@@ -46,10 +46,6 @@ const blogData = [
     },
   ]
 
-const handleClickToBlogsPage = (id: String)=>{
-  // const router = useRouter()
-  // router.push('/blogs/'+id)
-}
 
 export const Blog = () => {
   return (
