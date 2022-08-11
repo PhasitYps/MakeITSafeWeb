@@ -18,8 +18,8 @@ export const Home = () => {
         <div className="self-stretch mb-8 sm:mb-0">
           <img
             className="rounded-2xl h-[24rem] w-[24rem]"
-            src="/img_home.jpg"
-            alt="Lorem Image"
+            src="/Images/img_home.jpg"
+            alt=""
           />
         </div>
       </div>

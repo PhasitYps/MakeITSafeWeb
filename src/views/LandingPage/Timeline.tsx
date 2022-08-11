@@ -42,7 +42,7 @@ export const Timeline = () => {
 
         <div className="items-center justify-center flex ">
           <img
-            src="/img_process_diagram_graph.png"
+            src="/Images/img_process_diagram_graph.png"
             alt="Timeline"
           />
         </div>

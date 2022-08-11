@@ -17,12 +17,7 @@ a {
 }
 
 * {
-  box-sizing: border-box;
-}
-
-.bg {
-  width: 100%;
-  height: auto;
+  /* box-sizing: border-box; */
 }
 
 h1 p {
@@ -77,26 +72,6 @@ h1 p {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-/* ::-webkit-scrollbar {
-  width: 8px;
-} */
-
-/* Track */
-/* ::-webkit-scrollbar-track {
-  background: #f1f1f1;
-} */
-
-/* Handle */
-/* ::-webkit-scrollbar-thumb {
-  background: rgb(0, 124, 207);
-  border-radius: 30px;
-} */
-
-/* Handle on hover */
-/* ::-webkit-scrollbar-thumb:hover {
-  background: rgb(0, 153, 255);
-  border-radius: 30px;
-} */
 
 .CustomeRegisterNow {
   font-size: 1rem ;
