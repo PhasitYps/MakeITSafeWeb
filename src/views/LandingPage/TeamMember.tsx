@@ -18,7 +18,7 @@ export const TeamMember = () => {
         <div>
           <div className="grid sm:grid-cols-4 grid-cols-2 gap-1 justify-items-center m-2">
             {memberData.map(({ image, name }, index) => (
-              <CustomCard className="items-center justify-center w-56 h-60" key={index}>
+              <CustomCard className="items-center justify-center w-48 h-60" key={index}>
                 <div className="items-center justify-center flex">
                   <CustomCircleAvater>
                     <img
@@ -29,7 +29,7 @@ export const TeamMember = () => {
                     ></img>
                   </CustomCircleAvater>
                 </div>
-                <p className="text-center mt-4 font-bold">{name}</p>
+                <p className="text-center mt-4 font-bold text-sm">{name}</p>
               </CustomCard>
             ))}
           </div>
