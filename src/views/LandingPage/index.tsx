@@ -120,9 +120,9 @@ export const LandingPage = () => {
         />
 
         <img
-          className="z-10 absolute top-0 left-0"
+          className="z-10 absolute top-[50%] left-0"
           src="/Images/img_trophy.svg"
-          width={'200px'}
+          width={'150px'}
           alt=""
         />
       </div>
