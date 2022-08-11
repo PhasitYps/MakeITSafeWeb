@@ -26,30 +26,17 @@ export const Navbar = () => {
   }
 
   const [width, setWidth] = useState(0)
-  const handleResize = () => {
-    console.log('this is handleResize: ' + window.innerWidth)
-    setWidth(window.innerWidth)
-  }
+  const handleResize = () =>  setWidth(window.innerWidth);
 
   useEffect(() => {
-    if (width < 660) {
-      console.log('this is Phone: ' + width)
-    } else {
-      console.log('this is Window: ' + width)
-    }
-  }, [width])
 
-  useEffect(() => {
+    setWidth(window.innerWidth);
+
     window.addEventListener('resize', handleResize)
     return () => window.removeEventListener('resize', handleResize)
   }, [])
 
   useEffect(() => {
-    // if (width < 660) {
-    //   console.log('this is Phone: ' + width)
-    // } else {
-    //   console.log('this is Window: ' + width)
-    // }
 
     window.addEventListener('scroll', handleScroll)
     return () => window.removeEventListener('scroll', handleScroll)
