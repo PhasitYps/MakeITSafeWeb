@@ -5,8 +5,8 @@ export const Activities = () => {
     <section id="activities">
       <div className="grid w-full mt-[200px] grid-cols-1 sm:grid-cols-2 gap-8">
         <Card className="bg-white shadow-2xl">
-          <h1 className="text-4xl mb-4 font-bold text-[#d041f3]">Workshop</h1>
-          <p className="text-md mb-8 text-[#d041f3] font-bold">
+          <h1 className="text-4xl mb-4 font-bold">Workshop</h1>
+          <p className="text-md mb-8">
             The workshop intends to provide participants with the knowledge and
             skills needed to innovatively design educational solutions to
             addressing OCSEA issues. That includes domain knowledge, design
@@ -25,8 +25,8 @@ export const Activities = () => {
           </div>
         </Card>
         <Card className=" bg-white shadow-2xl">
-          <h1 className="text-4xl mb-4 font-bold text-[#d041f3]" >Hackathon</h1>
-          <p className="text-md mb-8 font-bold text-[#d041f3]">
+          <h1 className="text-4xl mb-4 font-bold">Hackathon</h1>
+          <p className="text-md mb-8">
             Participants will team up and submit an initial proposal to address
             the OCSEA issues. Proposal ideas can include interactive learning
             platforms, mobile games, applications, or other online learning

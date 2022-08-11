@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1188.91 832.55">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e5f7f3;
+      }
+
+      .cls-2 {
+        fill: url(#Degradado_sin_nombre_13);
+      }
+
+      .cls-3 {
+        fill: url(#Degradado_sin_nombre_12);
+      }
+
+      .cls-4 {
+        fill: url(#Degradado_sin_nombre_12-2);
+      }
+
+      .cls-5 {
+        fill: url(#Degradado_sin_nombre_12-3);
+      }
+    </style>
+    <linearGradient id="Degradado_sin_nombre_13" data-name="Degradado sin nombre 13" x1="719.77" y1="58.7" x2="667.53" y2="94.99" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ea5000"/>
+      <stop offset=".27" stop-color="#f0761a"/>
+      <stop offset=".54" stop-color="#f4942f"/>
+      <stop offset=".77" stop-color="#f7a73c"/>
+      <stop offset=".93" stop-color="#f9ae41"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_12" data-name="Degradado sin nombre 12" x1="296.52" y1="299.65" x2="335.46" y2="275.95" gradientTransform="translate(416.78 -244.92) rotate(50.96)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ea5000"/>
+      <stop offset="0" stop-color="#ea5000"/>
+      <stop offset=".46" stop-color="#f28223"/>
+      <stop offset=".81" stop-color="#f7a238"/>
+      <stop offset="1" stop-color="#f9ae41"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_12-2" data-name="Degradado sin nombre 12" x1="545.06" y1="504.48" x2="584.06" y2="480.74" gradientTransform="translate(1579.54) rotate(-180) scale(1 -1)" xlink:href="#Degradado_sin_nombre_12"/>
+    <linearGradient id="Degradado_sin_nombre_12-3" data-name="Degradado sin nombre 12" x1="182.8" y1="518.34" x2="221.8" y2="494.59" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Degradado_sin_nombre_12"/>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <path class="cls-1" d="M3.81,15.07c-5.08,0-5.08,8.13,0,8.13s5.08-8.13,0-8.13Z"/>
+      <path class="cls-1" d="M42.82,442.26c-5.08,0-5.08,8.13,0,8.13s5.08-8.13,0-8.13Z"/>
+      <path class="cls-1" d="M1139.35,0c-5.08,0-5.08,8.13,0,8.13s5.08-8.13,0-8.13Z"/>
+      <path class="cls-1" d="M1185.1,471.46c-5.08,0-5.08,8.13,0,8.13s5.08-8.13,0-8.13Z"/>
+      <path class="cls-1" d="M271.83,824.42c-5.08,0-5.08,8.13,0,8.13s5.08-8.13,0-8.13Z"/>
+      <path class="cls-1" d="M580.62,77.66c-5.08,0-5.08,8.13,0,8.13s5.08-8.13,0-8.13Z"/>
+      <path class="cls-1" d="M1047.42,812.97c-5.08,0-5.08,8.13,0,8.13s5.08-8.13,0-8.13Z"/>
+      <polygon class="cls-2" points="683.24 93.41 678.77 108.31 677.24 92.37 663.37 87.85 675.87 87.23 673.18 69.94 681.96 84.44 694.04 73.85 686.1 88.31 696.17 95.66 683.24 93.41"/>
+      <polygon class="cls-3" points="398.03 191.85 383.99 197.66 395.04 186.4 389.71 172.45 398.04 182.06 409.37 169.02 403.98 185.18 419.57 188.18 403.67 190.94 404.48 203.63 398.03 191.85"/>
+      <polygon class="cls-4" points="1003.83 494.53 1008.3 509.43 1009.82 493.48 1023.69 488.97 1011.2 488.35 1013.89 471.06 1005.1 485.56 993.03 474.97 1000.97 489.43 990.89 496.78 1003.83 494.53"/>
+      <polygon class="cls-5" points="213.45 508.38 208.99 523.28 207.46 507.34 193.59 502.82 206.08 502.21 203.39 484.92 212.18 499.41 224.25 488.82 216.32 503.29 226.39 510.63 213.45 508.38"/>
+    </g>
+  </g>
+</svg>

@@ -12,7 +12,7 @@ const timelineList = [
 export const Timeline = () => {
   return (
     <section id="timeline">
-      <div className="pt-[200px]">
+      <div className="mt-[200px]">
         <h1 className="text-4xl font-bold mb-4 text-white">Timeline</h1>
 
         {timelineList.map(({ date, description }, index) => (

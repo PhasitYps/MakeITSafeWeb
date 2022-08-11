@@ -1,118 +1,186 @@
-import Head from 'next/head'
 import { Layout } from '../common/Layout'
-import { Navbar } from '../common/Navbar'
 import { Home } from './Home'
-
-import Image from 'next/image'
 import { Problem } from './Problem'
 import { Activities } from './Activities'
 import { Timeline } from './Timeline'
-import { Reward } from './Reward'
 import { TeamMember } from './TeamMember'
 import { Partners } from './Partners'
-
-// const sponsorsData = [
-//   { image: '/img_avater.png', name: 'peopleName' },
-//   { image: '/img_avater.png', name: 'peopleName' },
-//   { image: '/img_avater.png', name: 'peopleName' },
-//   { image: '/img_avater.png', name: 'peopleName' },
-//   { image: '/img_avater.png', name: 'peopleName' },
-//   { image: '/img_avater.png', name: 'peopleName' },
-//   { image: '/img_avater.png', name: 'peopleName' },
-//   { image: '/img_avater.png', name: 'peopleName' },
-//   { image: '/img_avater.png', name: 'peopleName' },
-//   { image: '/img_avater.png', name: 'peopleName' },
-//   { image: '/img_avater.png', name: 'peopleName' },
-//   { image: '/img_avater.png', name: 'peopleName' },
-//   { image: '/img_avater.png', name: 'peopleName' },
-//   { image: '/img_avater.png', name: 'peopleName' },
-//   { image: '/img_avater.png', name: 'peopleName' },
-//   { image: '/img_avater.png', name: 'peopleName' },
-// ]
+import { PrizeForWinner } from './PrizeForWinner'
 
 export const LandingPage = () => {
   return (
-    <div>
-      <Head>
-        <title>ASEAN MakeITSafe</title>
-      </Head>
+    <>
+      <div className="relative">
+        <Layout>
+          <Home />
+        </Layout>
 
-      <section>
-        <Image
-          src="/Images/bg_003.svg"
-          alt="Cartoon graduates jump with happiness"
-          quality="100"
-          layout="fill"
-          objectFit="cover"
-          width={'100vw'}
+        <img
+          className="absolute top-5 left-20"
+          src="/Images/img_star_blue.svg"
+          width={'150px'}
+          alt=""
         />
-      </section>
+        <img
+          className="z-10 absolute top-[60%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
+          src="/Images/img_star.svg"
+          width={'1000px'}
+          alt=""
+        />
+        <img
+          className="absolute bottom-0 left-20"
+          src="/Images/img_cartoon1.svg"
+          width={'300px'}
+          alt=""
+        />
+        <img
+          className="absolute bottom-0 right-0"
+          src="/Images/img_two_line.svg"
+          width={'300px'}
+          alt=""
+        />
+      </div>
+      <div className="relative ">
+        <Layout>
+          <Problem />
+        </Layout>
 
-      <Navbar />
+        <img
+          className="z-10 absolute top-[60%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
+          src="/Images/img_star.svg"
+          width={'1000px'}
+          alt=""
+        />
 
-      <Layout className="z-1">
-        <Home />
-        <Problem />
-        <Activities />
-        <Timeline />
+        <img
+          className="z-10 absolute bottom-0 right-10"
+          src="/Images/img_star_pink.svg"
+          width={'240px'}
+          alt=""
+        />
+      </div>
+      <div className="relative ">
+        <Layout>
+          <Activities />
+        </Layout>
 
-        <Reward />
-        <TeamMember />
-        <Partners />
-      </Layout>
+        <img
+          className="z-10 absolute top-[60%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
+          src="/Images/img_star.svg"
+          width={'1000px'}
+          alt=""
+        />
+      </div>
+
+      <div className="relative ">
+        <Layout>
+          <Timeline />
+        </Layout>
+
+        <img
+          className="z-10 absolute top-[60%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
+          src="/Images/img_star.svg"
+          width={'1000px'}
+          alt=""
+        />
+
+        <img
+          className=" absolute left-0 top-10 rotate-180"
+          src="/Images/img_two_line.svg"
+          width={'240px'}
+          alt=""
+        />
+
+        <img
+          className=" absolute bottom-0 right-0"
+          src="/Images/img_two_line.svg"
+          width={'240px'}
+          alt=""
+        />
+
+        <img
+          className=" absolute top-[60%] left-0"
+          src="/Images/img_six_line.svg"
+          width={'240px'}
+          alt=""
+        />
+
+      </div>
+
+      <div className="relative">
+        <Layout>
+          <PrizeForWinner />
+        </Layout>
+
+        <img
+          className="z-10 absolute top-[60%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
+          src="/Images/img_star.svg"
+          width={'1000px'}
+          alt=""
+        />
+
+        <img
+          className="z-10 absolute top-0 left-0"
+          src="/Images/img_trophy.svg"
+          width={'200px'}
+          alt=""
+        />
+      </div>
+
+      <div className="relative ">
+        <Layout>
+          <TeamMember />
+        </Layout>
+
+        <img
+          className="z-10 absolute top-[60%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
+          src="/Images/img_star.svg"
+          width={'1000px'}
+          alt=""
+        />
+
+        <img
+          className="absolute top-40 right-5"
+          src="/Images/img_woman_brown.svg"
+          width={'150px'}
+          alt=""
+        />
+
+        <img
+          className="absolute top-40 left-5"
+          src="/Images/img_man_blue.svg"
+          width={'150px'}
+          alt=""
+        />
+        {/* <img
+          className="absolute top-0 right-5"
+          src="/Images/img_man_pink.svg"
+          width={'150px'}
+          alt=""
+        /> */}
+      </div>
+
+      <div className="relative">
+        <Layout>
+          <Partners />
+        </Layout>
+
+        <img
+          className="z-10 absolute top-[60%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
+          src="/Images/img_star.svg"
+          width={'1000px'}
+          alt=""
+        />
+
+        <img
+          className="absolute bottom-0 left-0"
+          src="/Images/img_bar_chart.svg"
+          width={'300px'}
+          alt=""
+        />
+      </div>
+
       {/* <Blog /> */}
-    </div>
+    </>
   )
-}
-
-{
-  /* <section id="donate">
-          <div className="mt-[200px]">
-            <h1 className="text-4xl font-bold mb-8 text-center text-white">
-              Donations / Funding
-            </h1>
-            <div className="flex items-center justify-center content-center">
-              <CustomCard className="items-center w-fit">
-                <img
-                  src="/img_qr_code_donate.png"
-                  height={'360px'}
-                  width={'360px'}
-                ></img>
-
-                <h1 className="text-2xl mb-8 text-center text-gray-800">
-                  Account number <br /> 012-3-45678-9
-                </h1>
-              </CustomCard>
-            </div>
-          </div>
-        </section>
-
-        <section id="sponser ">
-          <div className="pt-[200px] ">
-            <h1 className="text-center text-4xl font-bold mb-8 text-white">
-              Sponsors
-            </h1>
-            <CustomCard>
-              <div className="grid sm:grid-cols-8 grid-cols-2 gap-6 justify-items-center m-2">
-                {sponsorsData.map(({ image, name }, index) => (
-                  <CustomCircleAvater>
-                    <img key={index} src={image} alt={name}></img>
-                  </CustomCircleAvater>
-                ))}
-              </div>
-            </CustomCard>
-          </div>
-        </section> */
-}
-
-{
-  /* <section id="socialMedia">
-          <div className="mb-[150px] bg-slate-100">
-            <h1 className="text-center text-4xl font-bold mb-8 text-white">
-              Social Media
-            </h1>
-
-            <div className="grid sm:grid-cols-8 grid-cols-2 gap-6 justify-items-center m-2"></div>
-          </div>
-        </section> */
 }
