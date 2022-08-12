@@ -57,22 +57,22 @@ export const Navbar = () => {
             ) : (
               <>
                 <div className="mx-2">
-                  <a className="mx-2 w-16 text-white" href="#home">
+                  <a className="mx-2 text-white" href="#home">
                     Home
                   </a>
                 </div>
                 <div className="mx-2">
-                  <a className="mx-2 w-16 text-white" href="#problem">
+                  <a className="mx-2 text-white" href="#problem">
                     Problem
                   </a>
                 </div>
                 <div className="mx-2">
-                  <a className="mx-2 w-16 text-white" href="#timeline">
+                  <a className="mx-2 text-white" href="#timeline">
                     Timeline
                   </a>
                 </div>
                 <div className="mx-2">
-                  <a className="mx-2 w-16 text-white" href="#member">
+                  <a className="mx-2 text-white" href="#member">
                     About Us
                   </a>
                 </div>
@@ -90,24 +90,24 @@ export const Navbar = () => {
         {width >= 660 ? (
           <div></div>
         ) : (
-          <div className="flex items-center justify-center mt-10 ">
+          <div className="flex items-center justify-center mt-12 ">
             <div className="mx-2">
-              <a className="mx-2 w-16 text-white" href="#home">
+              <a className="mx-2 text-white text-sm" href="#home">
                 Home
               </a>
             </div>
             <div className="mx-2">
-              <a className="mx-2 w-16 text-white" href="#problem">
+              <a className="mx-2 text-white text-sm" href="#problem">
                 Problem
               </a>
             </div>
             <div className="mx-2">
-              <a className="mx-2 w-16 text-white " href="#timeline">
+              <a className="mx-2 text-white text-sm " href="#timeline">
                 Timeline
               </a>
             </div>
             <div className="mx-2">
-              <a className="mx-2 w-16 text-white" href="#member">
+              <a className="mx-2 text-white text-sm" href="#member">
                 About Us
               </a>
             </div>
