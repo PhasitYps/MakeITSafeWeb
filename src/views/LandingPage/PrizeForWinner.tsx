@@ -7,7 +7,7 @@ export const PrizeForWinner = () => {
         <div className="grid sm:grid-cols-3 grid-cols-2 gap-4 mb-10">
           <CustomCard className="rounded-3xl">
             <div className="pt-10">
-              <p className="text-center text-3xl font-bold text-red-500">
+              <p className="text-center text-2xl font-bold text-red-500">
                 3,000<span className="text-black"> USD</span>
               </p>
               <hr className="border-black border-solid border-[0.5px] rounded-2xl mt-5 mb-5 bg-black"></hr>
@@ -20,8 +20,8 @@ export const PrizeForWinner = () => {
           </CustomCard>
 
           <CustomCard className="rounded-3xl">
-            <div className="pt-2">
-              <p className="text-center text-3xl font-bold text-black ">
+            <div className="pt-10">
+              <p className="text-center text-2xl font-bold text-black ">
                 FLIGHT TO<span className="text-orange-500"> BANGKOK</span>
               </p>
               <hr className="border-black border-solid border-[0.5px] rounded-2xl mt-5 mb-5 bg-black"></hr>
@@ -36,7 +36,7 @@ export const PrizeForWinner = () => {
 
           <CustomCard className="rounded-3xl">
             <div className="pt-10">
-              <p className="text-center text-3xl font-bold text-black">
+              <p className="text-center text-2xl font-bold text-black">
                 FUNDING
               </p>
               <hr className="border-black border-solid border-[0.5px] rounded-2xl mt-5 mb-5 bg-black"></hr>

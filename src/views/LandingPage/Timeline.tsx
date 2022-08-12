@@ -17,34 +17,30 @@ export const Timeline = () => {
 
         {timelineList.map(({ date, description }, index) => (
           <div key={index} className="p-2">
-            <div className="rounded-[30px] p-2 bg-white">
-              <div className="flex justify-between">
-                <div className="flex flex-1">
-                  <div className="flex items-center justify-center m-1 py-2 px-3 rounded-[30px] bg-[#f6cb44]">
-                    <img
-                      className="mr-4"
-                      src="/ic_calendar.png"
-                      alt="ic_calendar"
-                      width={'24px'}
-                      height={'24px'}
-                    />
-                    <p className="w-40 shrink-0 mr-4 font-bold">{date}</p>
-                  </div>
-                  <div className="items-center justify-center flex">
-                    <p className="ml-4">{description}</p>
-                  </div>
+            <div className="rounded-[30px] p-2 bg-white flex justify-between">
+              <div className="flex flex-1">
+                <div className="relative">
+                <div className="flex items-center justify-center m-1 py-2 px-3 rounded-[30px] bg-[#f6cb44]">
+                  <img
+                    className="mr-1 ml-2"
+                    src="/ic_calendar.png"
+                    alt="ic_calendar"
+                    width={'24px'}
+                    height={'24px'}
+                  />
+                  <p className="text-sm mr-4 font-bold ">{date}</p>
                 </div>
-                {/* <div className="rounded-full w-8 h-8 bg-blue-400" /> */}
+                </div>
+                <div className="items-center justify-center flex">
+                  <p className="ml-1">{description}</p>
+                </div>
               </div>
             </div>
           </div>
         ))}
 
         <div className="items-center justify-center flex ">
-          <img
-            src="/Images/img_process_diagram_graph.png"
-            alt="Timeline"
-          />
+          <img src="/Images/img_process_diagram_graph.png" alt="Timeline" />
         </div>
       </div>
     </section>

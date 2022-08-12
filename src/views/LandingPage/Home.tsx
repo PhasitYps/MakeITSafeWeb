@@ -4,8 +4,8 @@ export const Home = () => {
       <div className="flex w-full sm:flex-row flex-col-reverse pt-[150px] pb-[200px]">
         <div className="flex-1 flex flex-col self-stretch justify-center mr-8">
           <div>
-            <h1 className="text-8xl font-bold text-white">ASEAN</h1>
-            <h1 className="text-6xl font-bold mb-8 text-white">MakeITSafe</h1>
+            <h1 className="text-6xl font-bold text-white">ASEAN</h1>
+            <h1 className="text-5xl font-bold mb-8 text-white">MakeITSafe</h1>
             <p className="text-2xl break-words mb-8 text-[#f6cb44]">
               A community for ASEAN youth to redesign solutions to address an
               arising cybercrime through multidisciplinary.

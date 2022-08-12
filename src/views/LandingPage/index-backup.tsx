@@ -30,17 +30,17 @@ export const LandingPage = () => {
         <img
           className="absolute bottom-0 left-20"
           src="/Images/img_cartoon1.svg"
-          width={'250px'}
+          width={'300px'}
           alt=""
         />
         <img
-          className="Sticker absolute bottom-0 right-0"
+          className="absolute bottom-0 right-0"
           src="/Images/img_two_line.svg"
-          width={'250px'}
+          width={'300px'}
           alt=""
         />
       </div>
-
+      
       <div className="relative ">
         <Layout>
           <Problem />
@@ -60,7 +60,6 @@ export const LandingPage = () => {
           alt=""
         />
       </div>
-      
       <div className="relative ">
         <Layout>
           <Activities />
@@ -74,7 +73,7 @@ export const LandingPage = () => {
         />
       </div>
 
-      <div className="relative">
+      <div className="relative ">
         <Layout>
           <Timeline />
         </Layout>
@@ -94,14 +93,14 @@ export const LandingPage = () => {
         />
 
         <img
-          className="Sticker absolute bottom-0 right-0"
+          className=" absolute bottom-0 right-0"
           src="/Images/img_two_line.svg"
           width={'240px'}
           alt=""
         />
 
         <img
-          className="Sticker absolute top-[60%] left-0"
+          className=" absolute top-[60%] left-0"
           src="/Images/img_six_line.svg"
           width={'240px'}
           alt=""
@@ -122,7 +121,7 @@ export const LandingPage = () => {
         />
 
         <img
-          className="Sticker z-10 absolute top-[50%] left-0"
+          className="z-10 absolute top-[50%] left-0"
           src="/Images/img_trophy.svg"
           width={'150px'}
           alt=""
@@ -142,14 +141,14 @@ export const LandingPage = () => {
         />
 
         <img
-          className="Sticker absolute top-40 right-5"
+          className="absolute top-40 right-5"
           src="/Images/img_woman_brown.svg"
           width={'150px'}
           alt=""
         />
 
         <img
-          className="Sticker absolute top-40 left-5"
+          className="absolute top-40 left-5"
           src="/Images/img_man_blue.svg"
           width={'150px'}
           alt=""
@@ -181,8 +180,6 @@ export const LandingPage = () => {
           alt=""
         />
       </div>
-      
-      
 
       {/* <Blog /> */}
     </>
